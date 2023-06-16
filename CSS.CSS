@@ -1,0 +1,233 @@
+header{
+    width: 100%;
+    background-color: wheat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* background-image: url(img/rain-7995866_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 600px; */
+    
+
+}
+.row{
+    display: flex;
+   align-items: center;
+   width: 100%; 
+}
+
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90;}
+.col-10{width: 100%;}
+
+.email , .number{
+    color: orange;
+}
+
+.socaillink{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ list-style-type: none;
+}
+.socaillink li a{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid orangered;
+   margin-left: 10px;
+   text-decoration: none;
+}
+.socaillink li a:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.mainu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    
+
+}
+
+.mainu li a{
+   background-color: orangered;
+   color: white;
+   padding: 14px 25px;
+   display: inline-block;
+   border: 1px solid orangered;
+   margin-left: 10px;
+   text-decoration: none;
+    
+
+}
+header img{
+    border-radius: 40%;
+    border: 3px solid orangered;
+    margin-bottom: 100px;
+    
+}
+.mainu li a:hover{
+    background-color: white;
+    color: orangered;
+}
+.mainheadding{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+nav{
+
+    background-image: url(img/rain-7995866_1920.jpg);
+    height: 400px;
+    
+}
+nav img{
+    border-radius: 20%;
+}
+.navtext{
+    text-align: center;
+    padding-top: 50px;
+}
+.navtext a{
+    text-decoration: none;
+    color: brown;
+    font-size: 50px;
+    font-weight: 800;
+}
+.form{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -100px;
+    z-index: 800;
+    background-color: white;
+    position: relative;
+position: relative;
+}
+.card{
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 30px;
+
+}
+input{
+    width: 90%;
+    height: 30px;
+}
+
+textarea{
+    width: 78%;
+}
+
+.button{
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 80px;
+    right:80px;
+}
+button:hover{
+    background-color: orangered !important;
+    color: white !important;
+}
+.phoneicon{
+    background-color: green;
+    color: white;
+    width: 42px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    bottom: 50px;
+}
+.phoneicon i{
+    font-size: 40px;
+}
+.whatsappicon{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin-left: 94%;
+    width: 43px;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 50px;    
+}
+.whatsappicon i{
+    font-size: 40px;
+}
+.car_sec{
+    margin-top: 40px;
+    
+
+
+}
+.car{
+    text-align: center;
+}
+.car_sec button a{
+    background-color: orangered;
+    color: white;
+    
+}
+.destinaton {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.destinaton .card:hover{
+   background: rgba(0,0,0,0.5   );
+}
+.destinaton .col-2{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 190px;
+    
+}
+.destinaton .card h1{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid white;
+    /* padding: 23px 12px 15px 44px; */
+    padding-top: 110px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* margin-left: -32px; */
+}
+/* .destinaton .card h1:hover{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid white;
+    padding: 100px 100px 100px 100px;
+    margin-left: -32px;
+
+} */
+
+ .imageani {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  } 
+  
+  @keyframes example {
+    0%   { left:-800px; top:0;}
+ 
+    100% { left:0px; top:0px;}
+  }

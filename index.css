@@ -1,0 +1,116 @@
+header{
+    width: 100%;
+    background-color: white;
+    /* margin-top: 30px; */
+    padding-top: 50px;
+    padding-bottom: 40px;
+    /* background-image: url('img/rain-7995866_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px; */
+    z-index: -5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+
+.mainu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+    /* margin-left: 200px; */
+}
+.mainu li a{
+    padding-left: end;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.mainu li{
+    padding-right: 10px;
+}
+.mainu li a:hover{
+   background-color: black;
+}
+header img{
+    border-radius: 50%;
+}
+.active{
+    background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+.sociallink{
+    text-align: end;
+}
+.sociallink i{
+    color: white;
+    margin-left: 10px;
+      
+}
+.email , .number , .sociallink i{
+    color: black;
+}
+nav{
+    background-image: url(../my\ img.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+   
+    
+}
+nav img{
+    border-radius: 40%;
+}
+.navtext{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.navtext a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.form{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -60px;
+    z-index: 999;
+    background-color: white;
+}
+.card{
+    border:1px solid wheat;
+    box-shadow: 0px 1px 1px 1px;
+    padding: 40px;
+}
+input{
+    width: 90%;
+    height: 30px;
+}
+.car_sec{
+    margin-top: 40px;
+}
+.car{
+    text-align: center;
+}
